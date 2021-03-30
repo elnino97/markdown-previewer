@@ -1,0 +1,99 @@
+.editorWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.editorMaximized {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100vw;
+  height: 95vh;
+}
+
+.editorBox {
+  min-width: 600px;
+  min-height: 200px;
+}
+
+#editor {
+  padding-left: 15px;
+}
+
+.textbox {
+  width: 600px;
+  height: 200px;
+}
+
+#editor {
+  background: #E0E0E0
+}
+
+.boxMaximized {
+  width: 95vw;
+  height: 95vh;
+}
+
+.previewWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.previewMaximized {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100vw;
+  height: 95vh;
+
+}
+
+.previewBox {
+  min-width: 816px;
+  min-height: 200px;
+  background: #E0E0E0
+}
+
+.previewBoxMaximized {
+  width: 95vw;
+  height: 93vh;
+
+}
+
+#preview {
+  padding: 15px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  background: #9E9E9E
+}
+
+pre {
+  background: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid;
+  padding: 5px;
+}
+
+blockquote {
+  border-left: 3px solid black;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+
+.expandIcon:hover {
+  color: #EEEEEE;
+}
